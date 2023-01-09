@@ -26,14 +26,11 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 # 📖 math-magician <a name="about-project"></a>
 
-> This is the math-magician project for react JS.
-
-**math-magician** is a...
+**math-magician** an online calculator. one could perform the basic arithmetic operation: addition, multiplication, subtraction, and division. more about the project is listed below.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -87,8 +84,8 @@ To get a local copy up and running follow these simple example steps.
 ## 👥 Authors <a name="authors"></a>
 👤 **Rohit Bhatt**
 
-- GitHub: [@githubhandle](https://github.com/rbhatt1999)
-- Twitter: [@twitterhandle](https://twitter.com/rohitbh02837778)
+- GitHub: [@rbhatt1999](https://github.com/rbhatt1999)
+- Twitter: [@Rohit_Bhatt_](https://twitter.com/Rohit_Bhatt_)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rohit-bhatt-747166193/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
