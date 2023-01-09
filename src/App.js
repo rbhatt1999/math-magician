@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Calculator from './components/Calculator';
+import './css/styles.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
-  );
+class App extends React.PureComponent {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <Calculator />
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
