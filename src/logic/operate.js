@@ -1,4 +1,4 @@
-const Big = require('big-js');
+const Big = require('big.js');
 
 export default function operate(numberOne, numberTwo, operation) {
   const one = Big(numberOne);
