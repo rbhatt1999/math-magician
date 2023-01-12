@@ -1,11 +1,11 @@
-import PropTypes from 'prop-types';
 import React from 'react';
+import PropTypes from 'prop-types';
 
-class CalculatorButton extends React.PureComponent {
+export default class CalculatorButton extends React.PureComponent {
   render() {
-    const { text, className } = this.props;
+    const { text, className, handleClick } = this.props;
     return (
-      <button className={`btn ${className}`} type="button">
+      <button className={`btn ${className}`} type="button" onClick={handleClick}>
         {text}
       </button>
     );
@@ -19,6 +19,5 @@ CalculatorButton.defaultProps = {
 CalculatorButton.propTypes = {
   text: PropTypes.string.isRequired,
   className: PropTypes.string,
+  handleClick: PropTypes.func.isRequired,
 };
-
-export default CalculatorButton;
