@@ -1,18 +1,17 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class TextInput extends React.PureComponent {
-  changeHandler() {
-    const { value } = this.props;
+const TextInput = (props) => {
+  const changeHandler = () => {
+    const { value } = props;
     return value;
-  }
+  };
 
-  render() {
-    const { value } = this.props;
-    return <input type="text" value={value} onChange={this.changeHandler} />;
-  }
-}
+  const { value } = props;
+  return <input type="text" value={value} onChange={changeHandler} />;
+};
 
 TextInput.propTypes = {
   value: PropTypes.number.isRequired,
 };
+
+export default TextInput;
