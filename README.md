@@ -56,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#live-demo) project is not deploy right now...
+- [Live Demo Link](https://rbhatt1999.github.io/math-magician/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
