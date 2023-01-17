@@ -1,11 +1,13 @@
 import Calculator from './components/Calculator';
+import Navigation from './components/Navigation';
 import './css/styles.css';
 
 const App = () => (
-  <div className="App">
-    <header className="App-header">
+  <div>
+    <Navigation />
+    <main className="container">
       <Calculator />
-    </header>
+    </main>
   </div>
 );
 
