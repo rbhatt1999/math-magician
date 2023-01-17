@@ -27,30 +27,40 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator">
-      <div className="grid cols-4">
-        <div className="span-4">
-          <TextInput value={textValue()} />
+    <div className="py-2 flex justify-between flex-wrap">
+      <div className="sm:w-half">
+        <h1 className="text-xl">Let&apos;s do some math</h1>
+        <img
+          src="https://www.callcentrehelper.com/images/stories/2016/04/calulator-hand-760.jpg"
+          className="w-full mt-1"
+          alt=""
+        />
+      </div>
+      <div className="calculator mt-1">
+        <div className="grid cols-4">
+          <div className="span-4">
+            <TextInput value={textValue()} />
+          </div>
+          <CalculatorButton text="AC" handleClick={() => handleClick('AC')} />
+          <CalculatorButton text="+/-" handleClick={() => handleClick('+/-')} />
+          <CalculatorButton text="%" handleClick={() => handleClick('%')} />
+          <CalculatorButton className="bg-orange" text="÷" handleClick={() => handleClick('÷')} />
+          <CalculatorButton text="7" handleClick={() => handleClick('7')} />
+          <CalculatorButton text="8" handleClick={() => handleClick('8')} />
+          <CalculatorButton text="9" handleClick={() => handleClick('9')} />
+          <CalculatorButton className="bg-orange" text="x" handleClick={() => handleClick('x')} />
+          <CalculatorButton text="4" handleClick={() => handleClick('4')} />
+          <CalculatorButton text="5" handleClick={() => handleClick('5')} />
+          <CalculatorButton text="6" handleClick={() => handleClick('6')} />
+          <CalculatorButton className="bg-orange" text="-" handleClick={() => handleClick('-')} />
+          <CalculatorButton text="1" handleClick={() => handleClick('1')} />
+          <CalculatorButton text="2" handleClick={() => handleClick('2')} />
+          <CalculatorButton text="3" handleClick={() => handleClick('3')} />
+          <CalculatorButton className="bg-orange" text="+" handleClick={() => handleClick('+')} />
+          <CalculatorButton className="span-2" text="0" handleClick={() => handleClick('0')} />
+          <CalculatorButton text="." handleClick={() => handleClick('.')} />
+          <CalculatorButton className="bg-orange" text="=" handleClick={() => handleClick('=')} />
         </div>
-        <CalculatorButton text="AC" handleClick={() => handleClick('AC')} />
-        <CalculatorButton text="+/-" handleClick={() => handleClick('+/-')} />
-        <CalculatorButton text="%" handleClick={() => handleClick('%')} />
-        <CalculatorButton className="bg-orange" text="÷" handleClick={() => handleClick('÷')} />
-        <CalculatorButton text="7" handleClick={() => handleClick('7')} />
-        <CalculatorButton text="8" handleClick={() => handleClick('8')} />
-        <CalculatorButton text="9" handleClick={() => handleClick('9')} />
-        <CalculatorButton className="bg-orange" text="x" handleClick={() => handleClick('x')} />
-        <CalculatorButton text="4" handleClick={() => handleClick('4')} />
-        <CalculatorButton text="5" handleClick={() => handleClick('5')} />
-        <CalculatorButton text="6" handleClick={() => handleClick('6')} />
-        <CalculatorButton className="bg-orange" text="-" handleClick={() => handleClick('-')} />
-        <CalculatorButton text="1" handleClick={() => handleClick('1')} />
-        <CalculatorButton text="2" handleClick={() => handleClick('2')} />
-        <CalculatorButton text="3" handleClick={() => handleClick('3')} />
-        <CalculatorButton className="bg-orange" text="+" handleClick={() => handleClick('+')} />
-        <CalculatorButton className="span-2" text="0" handleClick={() => handleClick('0')} />
-        <CalculatorButton text="." handleClick={() => handleClick('.')} />
-        <CalculatorButton className="bg-orange" text="=" handleClick={() => handleClick('=')} />
       </div>
     </div>
   );
