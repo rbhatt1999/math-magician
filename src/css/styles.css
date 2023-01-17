@@ -13,6 +13,16 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #555;
+}
+
 input {
   padding: 1.2rem;
   background-color: #858694;
