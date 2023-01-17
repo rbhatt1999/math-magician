@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => (
   <nav className="flex justify-between container py-2 bg-white shadow">
-    <h2>Math Magician</h2>
+    <h2 className="text-lg">Math Magician</h2>
     <ul className="flex gap">
       <li>
         <Link to="/">Home</Link>
