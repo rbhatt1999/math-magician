@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders correctly 1`] = `
+<div
+  className="py-2 flex justify-between flex-wrap"
+>
+  <div
+    className="sm:w-half"
+  >
+    <h1
+      className="text-xl"
+    >
+      Let's do some math
+    </h1>
+    <img
+      alt=""
+      className="w-full mt-1"
+      src="https://www.callcentrehelper.com/images/stories/2016/04/calulator-hand-760.jpg"
+    />
+  </div>
+  <div
+    className="calculator mt-1"
+  >
+    <div
+      className="grid cols-4"
+    >
+      <div
+        className="span-4"
+      >
+        <input
+          onChange={[Function]}
+          type="text"
+          value={0}
+        />
+      </div>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="btn bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="btn bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="btn bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="btn bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="btn span-2"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="btn "
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="btn bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CalculatorButton renders correctly 1`] = `
+<button
+  className="btn "
+  onClick={[Function]}
+  type="button"
+>
+  Submit
+</button>
+`;
+
+exports[`Home renders correctly 1`] = `
+<div
+  className="py-2"
+>
+  <h1
+    className="text-xl"
+  >
+    Welcome to Math Magician
+  </h1>
+  <p
+    className="mt-1"
+  >
+    We help you to solve your complex math problems using our magical caculator.
+  </p>
+  <div
+    className="py-2"
+  >
+    <img
+      alt="math pic"
+      className="w-full"
+      src="https://www.wellesley.edu/sites/default/files/styles/news_refresh_hero/public/assets/dailyshot/ds_461390782.jpg?itok=jr0Buv1t"
+    />
+  </div>
+</div>
+`;
