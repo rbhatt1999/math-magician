@@ -4,6 +4,8 @@ import Calculator from './Calculator';
 import CalculatorButton from './CalculatorButton';
 import TextInput from './TextInput';
 import Quotes from './Quotes';
+import Navigation from './Navigation';
+import { MemoryRouter } from 'react-router-dom';
 
 it('Home renders correctly', () => {
   const tree = renderer.create(<Home />).toJSON();
@@ -28,5 +30,16 @@ it('text unput renders correctly', () => {
 
 it('Quotes renders correctly', () => {
   const tree = renderer.create(<Quotes />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('Home renders correctly', () => {
+  const tree = renderer
+    .create(
+      <MemoryRouter>
+        <Navigation />
+      </MemoryRouter>,
+    )
+    .toJSON();
   expect(tree).toMatchSnapshot();
 });

@@ -207,6 +207,46 @@ exports[`Home renders correctly 1`] = `
 </div>
 `;
 
+exports[`Home renders correctly 2`] = `
+<nav
+  className="flex justify-between container py-2 bg-white shadow"
+>
+  <h2
+    className="text-lg"
+  >
+    Math Magician
+  </h2>
+  <ul
+    className="flex gap"
+  >
+    <li>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li>
+      <a
+        href="/quotes"
+        onClick={[Function]}
+      >
+        Quotes
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
 exports[`Quotes renders correctly 1`] = `
 <div
   className="py-2 w-full h-full flex justify-between items-center"
