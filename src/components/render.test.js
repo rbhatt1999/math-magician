@@ -4,6 +4,7 @@ import Home from './Home';
 import Calculator from './Calculator';
 import CalculatorButton from './CalculatorButton';
 import TextInput from './TextInput';
+import Quotes from './Quotes';
 
 it('Home renders correctly', () => {
   const tree = renderer.create(<Home />).toJSON();
@@ -23,5 +24,10 @@ it('CalculatorButton renders correctly', () => {
 
 it('text unput renders correctly', () => {
   const tree = renderer.create(<TextInput value={43} />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('Quotes renders correctly', () => {
+  const tree = renderer.create(<Quotes />).toJSON();
   expect(tree).toMatchSnapshot();
 });
