@@ -1,4 +1,3 @@
-import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import Home from './Home';
 import Calculator from './Calculator';
