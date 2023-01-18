@@ -3,6 +3,7 @@ import renderer from 'react-test-renderer';
 import Home from './Home';
 import Calculator from './Calculator';
 import CalculatorButton from './CalculatorButton';
+import TextInput from './TextInput';
 
 it('Home renders correctly', () => {
   const tree = renderer.create(<Home />).toJSON();
@@ -20,3 +21,7 @@ it('CalculatorButton renders correctly', () => {
   expect(tree).toMatchSnapshot();
 });
 
+it('text unput renders correctly', () => {
+  const tree = renderer.create(<TextInput value={43} />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
