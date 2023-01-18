@@ -206,3 +206,23 @@ exports[`Home renders correctly 1`] = `
   </div>
 </div>
 `;
+
+exports[`Quotes renders correctly 1`] = `
+<div
+  className="py-2 w-full h-full flex justify-between items-center"
+>
+  <p
+    className="text-2xl text-center"
+  >
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. -William Paul Thurston
+  </p>
+</div>
+`;
+
+exports[`text unput renders correctly 1`] = `
+<input
+  onChange={[Function]}
+  type="text"
+  value={43}
+/>
+`;
