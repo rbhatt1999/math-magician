@@ -1,11 +1,11 @@
 import renderer from 'react-test-renderer';
+import { MemoryRouter } from 'react-router-dom';
 import Home from './Home';
 import Calculator from './Calculator';
 import CalculatorButton from './CalculatorButton';
 import TextInput from './TextInput';
 import Quotes from './Quotes';
 import Navigation from './Navigation';
-import { MemoryRouter } from 'react-router-dom';
 
 it('Home renders correctly', () => {
   const tree = renderer.create(<Home />).toJSON();
