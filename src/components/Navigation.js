@@ -1,17 +1,18 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import '../css/styles.css';
 
 const Navigation = () => (
   <nav className="flex justify-between container py-2 bg-white shadow">
     <h2 className="text-lg">Math Magician</h2>
     <ul className="flex gap">
       <li>
-        <Link to="/math-magician">Home</Link>
+        <NavLink style={({ isActive }) => ({ color: isActive ? 'red' : '' })} end to="/math-magician">Home</NavLink>
       </li>
       <li>
-        <Link to="/math-magician/calculator">Calculator</Link>
+        <NavLink style={({ isActive }) => ({ color: isActive ? 'red' : '' })} end to="/math-magician/calculator">Calculator</NavLink>
       </li>
       <li>
-        <Link to="/math-magician/quotes">Quotes</Link>
+        <NavLink style={({ isActive }) => ({ color: isActive ? 'red' : '' })} end to="/math-magician/quotes">Quotes</NavLink>
       </li>
     </ul>
   </nav>

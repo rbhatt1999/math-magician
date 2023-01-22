@@ -180,3 +180,7 @@ input {
 .text-center {
   text-align: center;
 }
+
+.activeLink {
+  color: aqua;
+}
