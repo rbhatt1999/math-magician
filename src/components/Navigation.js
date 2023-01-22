@@ -5,13 +5,13 @@ const Navigation = () => (
     <h2 className="text-lg">Math Magician</h2>
     <ul className="flex gap">
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/math-magician">Home</Link>
       </li>
       <li>
-        <Link to="calculator">Calculator</Link>
+        <Link to="/math-magician/calculator">Calculator</Link>
       </li>
       <li>
-        <Link to="quotes">Quotes</Link>
+        <Link to="/math-magician/quotes">Quotes</Link>
       </li>
     </ul>
   </nav>
